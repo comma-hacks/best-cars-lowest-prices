@@ -40,39 +40,25 @@ async function updateCar(row) {
   let model = models.find(a=>row.Model.toLowerCase().includes(a.name.toLowerCase()))
 
   if (make && model) {
-    let modelOffers = await truecar.getOffers(make.slug, model.slug)
     let matches = row.Model.match(/20(\d+)(?:-)?(\d+)?/)
-
     let yearMin, yearMax;
-
     let sYear1 = matches[1]
     yearMin = parseInt('20'+sYear1)
     let sYear2 = matches[2]
-    
     if (sYear2) {
       yearMax = parseInt('20'+sYear2)  
     } else {
       yearMax = yearMin
     }
 
-    let yearMatchOffers = []
-  
-    for (offer of modelOffers) {
-      let year = offer.node.vehicle.year
-      if (year >= yearMin && year <= yearMax) {
-        yearMatchOffers.push(offer)
-      }
-    }
+    let offers = await truecar.getOffers(make.slug, model.slug, yearMin, yearMax)
+    // row.Price = offers[0].node.pricing.listPrice  
+    let lowest_price = Math.min(...offers.map(offer => offer.node.pricing.listPrice))
+    row.Price = lowest_price
+    console.log(row.Make, row.Model, offers.length, row.Price)
 
-    console.log(row.Make, row.Model, yearMatchOffers.length)
 
-    for (offer of yearMatchOffers) {
 
-    }
-
-    // process.exit(0)
-
-    // row.Price = offers[0].node.pricing.listPrice
   }
 
   row['Steering Torque'] = markdownToHtml(row['Steering Torque'])
