@@ -10,8 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-  <% const formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }); %>
-  <% const usd = formatter.format %>
+
   <table>
     <thead>
       <tr><% for (h of headers) { %>
@@ -22,7 +21,6 @@
       <% for (c of cars) { %>
         <tr>
         <% for (h of headers) { %>
-          <% if (h == 'Price') c[h] = usd(c[h]) %>
           <td><%- c[h] %></td><%} %>
         </tr>
         <% } %>

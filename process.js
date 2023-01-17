@@ -37,28 +37,44 @@ async function updateCar(row) {
   let makes = await truecar.getMakes()
   let make = makes.find(a=>a.name.toLowerCase().includes(row.Make.toLowerCase()))
   let models = await truecar.getModels(make.slug)
-  let model = models.find(a=>row.Model.toLowerCase().includes(a.name.toLowerCase()))
+
+  let matches = row.Model.match(/20(\d+)(?:-)?(\d+)?/)
+  let yearMin, yearMax;
+  let sYear1 = matches[1]
+  yearMin = parseInt('20'+sYear1)
+  let sYear2 = matches[2]
+  if (sYear2) {
+    yearMax = parseInt('20'+sYear2)  
+  } else {
+    yearMax = yearMin
+  }
+
+
+  let model = models.find(a=>a.name.toLowerCase().includes(row.Model.replace(matches[0], '').trim().toLowerCase()))
+  
+  if (!model) {
+      model = models.find(a=>row.Model.toLowerCase().includes(a.name.toLowerCase()))
+  }
 
   if (make && model) {
-    let matches = row.Model.match(/20(\d+)(?:-)?(\d+)?/)
-    let yearMin, yearMax;
-    let sYear1 = matches[1]
-    yearMin = parseInt('20'+sYear1)
-    let sYear2 = matches[2]
-    if (sYear2) {
-      yearMax = parseInt('20'+sYear2)  
-    } else {
-      yearMax = yearMin
-    }
-
+    
     let offers = await truecar.getOffers(make.slug, model.slug, yearMin, yearMax)
     // row.Price = offers[0].node.pricing.listPrice  
-    let lowest_price = Math.min(...offers.map(offer => offer.node.pricing.listPrice))
-    row.Price = lowest_price
-    console.log(row.Make, row.Model, offers.length, row.Price)
-
-
-
+    // let lowest_price = Math.min(...offers.map(offer => offer.node.pricing.listPrice))
+    // let lowest_offer = Math.min(...offers.map(offer => offer.node.pricing.listPrice))
+    let lowest_offer = offers.reduce((lowest, offer) => {
+      if (offer.node.pricing.listPrice < lowest.node.pricing.listPrice) {
+          return offer;
+      }
+      return lowest;
+    }, offers[0]);
+  
+    const formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
+    const usd = formatter.format
+    let lowest_price = usd(lowest_offer.node.pricing.listPrice)
+    let vin = lowest_offer.node.vehicle.vin;
+    row.Price = `<a href="https://www.truecar.com/used-cars-for-sale/listing/${vin}/">${lowest_price}</a>`
+    console.log(row.Make, row.Model, offers.length, row.Price, )
   }
 
   row['Steering Torque'] = markdownToHtml(row['Steering Torque'])
