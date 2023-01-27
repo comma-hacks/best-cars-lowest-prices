@@ -63,17 +63,18 @@ async function updateCar(row) {
     // let lowest_price = Math.min(...offers.map(offer => offer.node.pricing.listPrice))
     // let lowest_offer = Math.min(...offers.map(offer => offer.node.pricing.listPrice))
     let lowest_offer = offers.reduce((lowest, offer) => {
-      if (offer.node.pricing.listPrice < lowest.node.pricing.listPrice) {
+      
+      if (offer.node.pricing.listPrice < lowest.node.pricing.listPrice && offer.node.pricing.listPrice > 0) {
           return offer;
       }
       return lowest;
     }, offers[0]);
-  
+    console.log(lowest_offer.node.pricing.listPrice)
     const formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
     const usd = formatter.format
     let lowest_price = usd(lowest_offer.node.pricing.listPrice)
     let vin = lowest_offer.node.vehicle.vin;
-    row.Price = `<a href="https://www.truecar.com/used-cars-for-sale/listing/${vin}/">${lowest_price}</a>`
+    row.Price = `<a target="blank" href="https://www.truecar.com/used-cars-for-sale/listing/${vin}/">${lowest_price}</a>`
     console.log(row.Make, row.Model, offers.length, row.Price, )
   }
 
