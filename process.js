@@ -72,9 +72,12 @@ async function updateCar(row) {
     console.log(lowest_offer.node.pricing.listPrice)
     const formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
     const usd = formatter.format
-    let lowest_price = usd(lowest_offer.node.pricing.listPrice)
+    row.lowestPriceRaw = lowest_offer.node.pricing.listPrice
+    row.lowestPrice = usd(row.lowestPriceRaw)
     let vin = lowest_offer.node.vehicle.vin;
-    row.Price = `<a target="blank" href="https://www.truecar.com/used-cars-for-sale/listing/${vin}/">${lowest_price}</a>`
+    row.lowestOfferVin = vin;
+    row.lowestOfferURL = `https://www.truecar.com/used-cars-for-sale/listing/${vin}/`
+    row.Price = `<a target="blank" href="${row.lowestOfferURL}">${row.lowestPrice}</a>`
     console.log(row.Make, row.Model, offers.length, row.Price, )
   }
 
@@ -95,4 +98,5 @@ async function updateCar(row) {
   const data = { headers, cars: cars.filter(a=>a.Price) };
   const html = await util.promisify(ejs.renderFile)('index.ejs', data, {})
   await fs.promises.writeFile('index.html', html);
+  await fs.promises.writeFile('cars.json', JSON.stringify(data.cars.sort((a,b) => a.lowestPriceRaw - b.lowestPriceRaw), null, 4));
 })();
