@@ -1018,8 +1018,8 @@
                             "location": {
                                 "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
                                 "geolocation": {
-                                    "postalCode": "92626",
-                                    "city": "Costa Mesa",
+                                    "postalCode": "90621",
+                                    "city": "Buena Park",
                                     "state": "CA",
                                     "id": "R2VvbG9jYXRpb24t",
                                     "__typename": "Geolocation"
@@ -1031,7 +1031,7 @@
                             "parentDealershipName": "carmax",
                             "__typename": "Dealership"
                         },
-                        "isMultiLocation": false,
+                        "isMultiLocation": true,
                         "distanceRetailing": false,
                         "tcplusEligible": false,
                         "galleryImages": {
@@ -1086,7 +1086,13 @@
                             "priceBeforeDrop": null,
                             "discountLabel": null,
                             "deliveryFee": null,
-                            "transferFee": null,
+                            "transferFee": {
+                                "amount": 0,
+                                "fromCity": "Costa Mesa",
+                                "fromState": "CA",
+                                "distance": 13.54,
+                                "__typename": "TransferFee"
+                            },
                             "totalMsrp": 0,
                             "subTotal": null,
                             "__typename": "Pricing"
@@ -1117,7 +1123,7 @@
                     },
                     "hiddenListingsInfo": null,
                     "distance": {
-                        "miles": 9.61,
+                        "miles": 4.01,
                         "__typename": "WithinDistanceInfo"
                     },
                     "__typename": "ListingSearchEdge"
@@ -1271,24 +1277,24 @@
                         "marketAnalysis": {
                             "priceQuality": "GREAT",
                             "marketAverageAnalysis": {
-                                "averageSaved": 349,
-                                "averagePricePercentage": 1.2,
+                                "averageSaved": 320,
+                                "averagePricePercentage": 1.1,
                                 "averagePriceRange": {
-                                    "min": 29267,
-                                    "max": 30461,
+                                    "min": 29228,
+                                    "max": 30420,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 29864,
+                                "averagePrice": 29824,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$349 (1.2%) off avg. list price",
+                            "calloutDifferenceString": "$320 (1.1%) off avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
                         },
                         "precalculatedLease": null,
                         "precalculatedLoan": {
-                            "totalMonthlyPayment": 535.54,
+                            "totalMonthlyPayment": 516.84,
                             "disclaimer": "This finance estimate is based off a 60 month term and $2,907.80 down payment. It does not include fees charged by this dealer and may not reflect your actual tax liability.",
                             "downPayment": 2907.8,
                             "term": 60,
@@ -2204,186 +2210,6 @@
                     "cursor": "MTM",
                     "node": {
                         "vehicle": {
-                            "vin": "JTDKAMFP2M3189224",
-                            "condition": "USED",
-                            "make": {
-                                "slug": "toyota",
-                                "name": "Toyota",
-                                "id": "TWFrZS01Mw==",
-                                "__typename": "Make"
-                            },
-                            "model": {
-                                "slug": "prius-prime",
-                                "name": "Prius Prime",
-                                "id": "TW9kZWwtOTA5MA==",
-                                "__typename": "Model"
-                            },
-                            "style": {
-                                "id": "U3R5bGUtNjkzMTc=",
-                                "trim": {
-                                    "name": "XLE",
-                                    "slug": "xle",
-                                    "id": "VHJpbS0zNTU1OA==",
-                                    "__typename": "Trim"
-                                },
-                                "name": "XLE",
-                                "driveType": {
-                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
-                                    "acronym": "FWD",
-                                    "name": "Front Wheel Drive",
-                                    "__typename": "VehicleDriveType"
-                                },
-                                "__typename": "Style"
-                            },
-                            "year": 2021,
-                            "certifiedPreOwned": null,
-                            "mileage": 24340,
-                            "exteriorColorV2": {
-                                "__typename": "GenericColor",
-                                "genericName": "White",
-                                "name": "Wind Chill Pearl"
-                            },
-                            "interiorColorV2": {
-                                "__typename": "GenericColor",
-                                "genericName": "Black",
-                                "name": "Black"
-                            },
-                            "conditionHistory": {
-                                "ownerCount": 1,
-                                "accidentCount": 0,
-                                "isFleetCar": false,
-                                "__typename": "VehicleConditionHistory"
-                            },
-                            "mpg": {
-                                "city": null,
-                                "highway": null,
-                                "__typename": "VehicleMPG"
-                            },
-                            "transmission": "Automatic",
-                            "engine": "1.8L Inline-4 Plug-In Hybrid",
-                            "fuelType": "Plug-In Hybrid",
-                            "bodyStyle": "Hatchback",
-                            "__typename": "Vehicle"
-                        },
-                        "id": "TGlzdGluZy1KVERLQU1GUDJNMzE4OTIyNA==",
-                        "dealership": {
-                            "location": {
-                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
-                                "geolocation": {
-                                    "postalCode": "90621",
-                                    "city": "Buena Park",
-                                    "state": "CA",
-                                    "id": "R2VvbG9jYXRpb24t",
-                                    "__typename": "Geolocation"
-                                },
-                                "__typename": "DealershipLocation"
-                            },
-                            "databaseId": "5607",
-                            "id": "RGVhbGVyc2hpcC01NjA3",
-                            "parentDealershipName": "carmax",
-                            "__typename": "Dealership"
-                        },
-                        "isMultiLocation": true,
-                        "distanceRetailing": false,
-                        "tcplusEligible": false,
-                        "galleryImages": {
-                            "nodes": [
-                                {
-                                    "url": "listings/5607/24/92/JTDKAMFP2M3189224/THD6B2Z5XMRBGEK2MUQKHKFBXU",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5607/24/92/JTDKAMFP2M3189224/BIA5S5F553OD3WDUELOSNNZSKU",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5607/24/92/JTDKAMFP2M3189224/XI62DVR6AVS3SAZUGTJLBSKHK4",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5607/24/92/JTDKAMFP2M3189224/YLLGZRGXK2F4M7AASSPRILIPZ4",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5607/24/92/JTDKAMFP2M3189224/67JOIT6RNU5KTJHOHE7WPMQQ3E",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                }
-                            ],
-                            "__typename": "ImageConnection"
-                        },
-                        "pricing": {
-                            "exclusion": "LOCKED",
-                            "maapOverriddenAt": null,
-                            "listPrice": 29998,
-                            "priceBeforeDrop": null,
-                            "discountLabel": null,
-                            "deliveryFee": null,
-                            "transferFee": {
-                                "amount": 199,
-                                "fromCity": "Roseville",
-                                "fromState": "CA",
-                                "distance": 382.79,
-                                "__typename": "TransferFee"
-                            },
-                            "totalMsrp": 0,
-                            "subTotal": null,
-                            "__typename": "Pricing"
-                        },
-                        "consumerProspectedAt": null,
-                        "marketAnalysis": {
-                            "priceQuality": "GREAT",
-                            "marketAverageAnalysis": {
-                                "averageSaved": 19,
-                                "averagePricePercentage": 0.1,
-                                "averagePriceRange": {
-                                    "min": 29721,
-                                    "max": 30935,
-                                    "__typename": "IntRange"
-                                },
-                                "averagePrice": 30328,
-                                "__typename": "PriceAnalysis"
-                            },
-                            "calloutDifferenceString": "$19 (0.1%) off avg. list price",
-                            "calloutPriceSavings": null,
-                            "recentOfferAnalysis": null,
-                            "__typename": "MarketAnalysis"
-                        },
-                        "precalculatedLease": null,
-                        "precalculatedLoan": null,
-                        "highlightedOptionsOrKeyFeatures": [],
-                        "__typename": "Listing"
-                    },
-                    "hiddenListingsInfo": null,
-                    "distance": {
-                        "miles": 4.01,
-                        "__typename": "WithinDistanceInfo"
-                    },
-                    "__typename": "ListingSearchEdge"
-                },
-                {
-                    "cursor": "MTQ",
-                    "node": {
-                        "vehicle": {
                             "vin": "JTDKAMFP2M3187747",
                             "condition": "USED",
                             "make": {
@@ -2563,7 +2389,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MTU",
+                    "cursor": "MTQ",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP2M3172567",
@@ -2743,7 +2569,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MTY",
+                    "cursor": "MTU",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP5M3188634",
@@ -2919,551 +2745,187 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
+                    "cursor": "MTY",
+                    "node": {
+                        "vehicle": {
+                            "vin": "JTDKAMFPXM3193781",
+                            "condition": "USED",
+                            "make": {
+                                "slug": "toyota",
+                                "name": "Toyota",
+                                "id": "TWFrZS01Mw==",
+                                "__typename": "Make"
+                            },
+                            "model": {
+                                "slug": "prius-prime",
+                                "name": "Prius Prime",
+                                "id": "TW9kZWwtOTA5MA==",
+                                "__typename": "Model"
+                            },
+                            "style": {
+                                "id": "U3R5bGUtNjkzMTc=",
+                                "trim": {
+                                    "name": "XLE",
+                                    "slug": "xle",
+                                    "id": "VHJpbS0zNTU1OA==",
+                                    "__typename": "Trim"
+                                },
+                                "name": "XLE",
+                                "driveType": {
+                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
+                                    "acronym": "FWD",
+                                    "name": "Front Wheel Drive",
+                                    "__typename": "VehicleDriveType"
+                                },
+                                "__typename": "Style"
+                            },
+                            "year": 2021,
+                            "certifiedPreOwned": null,
+                            "mileage": 11304,
+                            "exteriorColorV2": {
+                                "__typename": "GenericColor",
+                                "genericName": "Black",
+                                "name": "Midnight Black Metallic"
+                            },
+                            "interiorColorV2": {
+                                "__typename": "GenericColor",
+                                "genericName": "Black",
+                                "name": "Black"
+                            },
+                            "conditionHistory": {
+                                "ownerCount": 1,
+                                "accidentCount": 0,
+                                "isFleetCar": false,
+                                "__typename": "VehicleConditionHistory"
+                            },
+                            "mpg": {
+                                "city": null,
+                                "highway": null,
+                                "__typename": "VehicleMPG"
+                            },
+                            "transmission": "Automatic",
+                            "engine": "1.8L Inline-4 Plug-In Hybrid",
+                            "fuelType": "Plug-In Hybrid",
+                            "bodyStyle": "Hatchback",
+                            "__typename": "Vehicle"
+                        },
+                        "id": "TGlzdGluZy1KVERLQU1GUFhNMzE5Mzc4MQ==",
+                        "dealership": {
+                            "location": {
+                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
+                                "geolocation": {
+                                    "postalCode": "91411",
+                                    "city": "Van Nuys",
+                                    "state": "CA",
+                                    "id": "R2VvbG9jYXRpb24t",
+                                    "__typename": "Geolocation"
+                                },
+                                "__typename": "DealershipLocation"
+                            },
+                            "databaseId": "207418",
+                            "id": "RGVhbGVyc2hpcC0yMDc0MTg=",
+                            "parentDealershipName": null,
+                            "__typename": "Dealership"
+                        },
+                        "isMultiLocation": false,
+                        "distanceRetailing": false,
+                        "tcplusEligible": false,
+                        "galleryImages": {
+                            "nodes": [
+                                {
+                                    "url": "listings/207418/81/37/JTDKAMFPXM3193781/ASSP3YK2WQQPVJPG6ZMWEVX32M",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/207418/81/37/JTDKAMFPXM3193781/TIJJCNSYCCSTYTGYKAR5M3FYAM",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/207418/81/37/JTDKAMFPXM3193781/VHBNVEVPRHNIVCE427QTDLDGBQ",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/207418/81/37/JTDKAMFPXM3193781/QV4IRW3ENWOF4P6MUACYIUM4CY",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/207418/81/37/JTDKAMFPXM3193781/PSZJEAO75Q3VQKLSR63QG3PWDI",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                }
+                            ],
+                            "__typename": "ImageConnection"
+                        },
+                        "pricing": {
+                            "exclusion": "LOCKED",
+                            "maapOverriddenAt": null,
+                            "listPrice": 28000,
+                            "priceBeforeDrop": 29200,
+                            "discountLabel": "Dealer Discount Available",
+                            "deliveryFee": null,
+                            "transferFee": null,
+                            "totalMsrp": 0,
+                            "subTotal": null,
+                            "__typename": "Pricing"
+                        },
+                        "consumerProspectedAt": null,
+                        "marketAnalysis": {
+                            "priceQuality": "GREAT",
+                            "marketAverageAnalysis": {
+                                "averageSaved": 616,
+                                "averagePricePercentage": 2.2,
+                                "averagePriceRange": {
+                                    "min": 28585,
+                                    "max": 29751,
+                                    "__typename": "IntRange"
+                                },
+                                "averagePrice": 29168,
+                                "__typename": "PriceAnalysis"
+                            },
+                            "calloutDifferenceString": "$616 (2.2%) off avg. list price",
+                            "calloutPriceSavings": null,
+                            "recentOfferAnalysis": null,
+                            "__typename": "MarketAnalysis"
+                        },
+                        "precalculatedLease": null,
+                        "precalculatedLoan": {
+                            "totalMonthlyPayment": 546.53,
+                            "disclaimer": "This finance estimate is based off a 60 month term and $2,800.00 down payment. It does not include fees charged by this dealer and may not reflect your actual tax liability.",
+                            "downPayment": 2800,
+                            "term": 60,
+                            "__typename": "PrecalculatedLoanPayment"
+                        },
+                        "highlightedOptionsOrKeyFeatures": [],
+                        "__typename": "Listing"
+                    },
+                    "hiddenListingsInfo": null,
+                    "distance": {
+                        "miles": 36.96,
+                        "__typename": "WithinDistanceInfo"
+                    },
+                    "__typename": "ListingSearchEdge"
+                },
+                {
                     "cursor": "MTc",
-                    "node": {
-                        "vehicle": {
-                            "vin": "JTDKAMFPXM3191562",
-                            "condition": "USED",
-                            "make": {
-                                "slug": "toyota",
-                                "name": "Toyota",
-                                "id": "TWFrZS01Mw==",
-                                "__typename": "Make"
-                            },
-                            "model": {
-                                "slug": "prius-prime",
-                                "name": "Prius Prime",
-                                "id": "TW9kZWwtOTA5MA==",
-                                "__typename": "Model"
-                            },
-                            "style": {
-                                "id": "U3R5bGUtNjkyOTg=",
-                                "trim": {
-                                    "name": "LE",
-                                    "slug": "le",
-                                    "id": "VHJpbS0zNTU0Ng==",
-                                    "__typename": "Trim"
-                                },
-                                "name": "LE",
-                                "driveType": {
-                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
-                                    "acronym": "FWD",
-                                    "name": "Front Wheel Drive",
-                                    "__typename": "VehicleDriveType"
-                                },
-                                "__typename": "Style"
-                            },
-                            "year": 2021,
-                            "certifiedPreOwned": null,
-                            "mileage": 16351,
-                            "exteriorColorV2": {
-                                "__typename": "VehicleColor",
-                                "id": "VmVoaWNsZUNvbG9yLTEwNDY4OTU=",
-                                "genericName": "Gray",
-                                "name": "Magnetic Gray Metallic"
-                            },
-                            "interiorColorV2": {
-                                "__typename": "VehicleColor",
-                                "id": "VmVoaWNsZUNvbG9yLTEwNDY5MDE=",
-                                "genericName": "Black",
-                                "name": "Black"
-                            },
-                            "conditionHistory": {
-                                "ownerCount": 1,
-                                "accidentCount": 0,
-                                "isFleetCar": false,
-                                "__typename": "VehicleConditionHistory"
-                            },
-                            "mpg": {
-                                "city": null,
-                                "highway": null,
-                                "__typename": "VehicleMPG"
-                            },
-                            "transmission": "Automatic",
-                            "engine": "1.8L Inline-4 Plug-In Hybrid",
-                            "fuelType": "Plug-In Hybrid",
-                            "bodyStyle": "Hatchback",
-                            "__typename": "Vehicle"
-                        },
-                        "id": "TGlzdGluZy1KVERLQU1GUFhNMzE5MTU2Mg==",
-                        "dealership": {
-                            "location": {
-                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
-                                "geolocation": {
-                                    "postalCode": "90621",
-                                    "city": "Buena Park",
-                                    "state": "CA",
-                                    "id": "R2VvbG9jYXRpb24t",
-                                    "__typename": "Geolocation"
-                                },
-                                "__typename": "DealershipLocation"
-                            },
-                            "databaseId": "5573",
-                            "id": "RGVhbGVyc2hpcC01NTcz",
-                            "parentDealershipName": "carmax",
-                            "__typename": "Dealership"
-                        },
-                        "isMultiLocation": true,
-                        "distanceRetailing": false,
-                        "tcplusEligible": false,
-                        "galleryImages": {
-                            "nodes": [
-                                {
-                                    "url": "listings/5573/62/15/JTDKAMFPXM3191562/QZYHX256MKZRRXEFSNGJ7KZPBA",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5573/62/15/JTDKAMFPXM3191562/7VF3LLTER2ARUM4ORWTP7CVW3E",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5573/62/15/JTDKAMFPXM3191562/YEETH7LWSAO64IA5OQHRUZ3JPQ",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5573/62/15/JTDKAMFPXM3191562/MU4BGD4KB2OCCZVAVOCAUNIYIQ",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5573/62/15/JTDKAMFPXM3191562/CR3ABNJMC2IV4LKLFT5EMZYXNE",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                }
-                            ],
-                            "__typename": "ImageConnection"
-                        },
-                        "pricing": {
-                            "exclusion": "LOCKED",
-                            "maapOverriddenAt": null,
-                            "listPrice": 28998,
-                            "priceBeforeDrop": null,
-                            "discountLabel": null,
-                            "deliveryFee": null,
-                            "transferFee": {
-                                "amount": 99,
-                                "fromCity": "San Diego",
-                                "fromState": "CA",
-                                "distance": 87.38,
-                                "__typename": "TransferFee"
-                            },
-                            "totalMsrp": 0,
-                            "subTotal": null,
-                            "__typename": "Pricing"
-                        },
-                        "consumerProspectedAt": null,
-                        "marketAnalysis": {
-                            "priceQuality": "GREAT",
-                            "marketAverageAnalysis": {
-                                "averageSaved": 366,
-                                "averagePricePercentage": 1.3,
-                                "averagePriceRange": {
-                                    "min": 29202,
-                                    "max": 30394,
-                                    "__typename": "IntRange"
-                                },
-                                "averagePrice": 29798,
-                                "__typename": "PriceAnalysis"
-                            },
-                            "calloutDifferenceString": "$366 (1.3%) off avg. list price",
-                            "calloutPriceSavings": null,
-                            "recentOfferAnalysis": null,
-                            "__typename": "MarketAnalysis"
-                        },
-                        "precalculatedLease": null,
-                        "precalculatedLoan": null,
-                        "highlightedOptionsOrKeyFeatures": [],
-                        "__typename": "Listing"
-                    },
-                    "hiddenListingsInfo": null,
-                    "distance": {
-                        "miles": 4.01,
-                        "__typename": "WithinDistanceInfo"
-                    },
-                    "__typename": "ListingSearchEdge"
-                },
-                {
-                    "cursor": "MTg",
-                    "node": {
-                        "vehicle": {
-                            "vin": "JTDKAMFP6M3189128",
-                            "condition": "USED",
-                            "make": {
-                                "slug": "toyota",
-                                "name": "Toyota",
-                                "id": "TWFrZS01Mw==",
-                                "__typename": "Make"
-                            },
-                            "model": {
-                                "slug": "prius-prime",
-                                "name": "Prius Prime",
-                                "id": "TW9kZWwtOTA5MA==",
-                                "__typename": "Model"
-                            },
-                            "style": {
-                                "id": "U3R5bGUtNjkyOTg=",
-                                "trim": {
-                                    "name": "LE",
-                                    "slug": "le",
-                                    "id": "VHJpbS0zNTU0Ng==",
-                                    "__typename": "Trim"
-                                },
-                                "name": "LE",
-                                "driveType": {
-                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
-                                    "acronym": "FWD",
-                                    "name": "Front Wheel Drive",
-                                    "__typename": "VehicleDriveType"
-                                },
-                                "__typename": "Style"
-                            },
-                            "year": 2021,
-                            "certifiedPreOwned": null,
-                            "mileage": 60603,
-                            "exteriorColorV2": {
-                                "__typename": "VehicleColor",
-                                "id": "VmVoaWNsZUNvbG9yLTEwNDY4OTI=",
-                                "genericName": "White",
-                                "name": "Super White"
-                            },
-                            "interiorColorV2": {
-                                "__typename": "VehicleColor",
-                                "id": "VmVoaWNsZUNvbG9yLTEwNDY5MDE=",
-                                "genericName": "Black",
-                                "name": "Black"
-                            },
-                            "conditionHistory": {
-                                "ownerCount": 1,
-                                "accidentCount": 0,
-                                "isFleetCar": false,
-                                "__typename": "VehicleConditionHistory"
-                            },
-                            "mpg": {
-                                "city": null,
-                                "highway": null,
-                                "__typename": "VehicleMPG"
-                            },
-                            "transmission": "Automatic",
-                            "engine": "1.8L Inline-4 Plug-In Hybrid",
-                            "fuelType": "Plug-In Hybrid",
-                            "bodyStyle": "Hatchback",
-                            "__typename": "Vehicle"
-                        },
-                        "id": "TGlzdGluZy1KVERLQU1GUDZNMzE4OTEyOA==",
-                        "dealership": {
-                            "location": {
-                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
-                                "geolocation": {
-                                    "postalCode": "90621",
-                                    "city": "Buena Park",
-                                    "state": "CA",
-                                    "id": "R2VvbG9jYXRpb24t",
-                                    "__typename": "Geolocation"
-                                },
-                                "__typename": "DealershipLocation"
-                            },
-                            "databaseId": "86859",
-                            "id": "RGVhbGVyc2hpcC04Njg1OQ==",
-                            "parentDealershipName": "carmax",
-                            "__typename": "Dealership"
-                        },
-                        "isMultiLocation": true,
-                        "distanceRetailing": false,
-                        "tcplusEligible": false,
-                        "galleryImages": {
-                            "nodes": [
-                                {
-                                    "url": "listings/86859/28/91/JTDKAMFP6M3189128/FC6FG5V2VTY57TRI64EWEYMW4Y",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/86859/28/91/JTDKAMFP6M3189128/M2FTLP7DEEKCHYDWUCZFBH2MEA",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/86859/28/91/JTDKAMFP6M3189128/JKEJSME56MQU6MET4C5TSQNG7I",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/86859/28/91/JTDKAMFP6M3189128/3RGXA7CBQKIKPM3FLQLDJ4WF3A",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/86859/28/91/JTDKAMFP6M3189128/MVAR7RG7XQUG26THUQXR7HGPMY",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                }
-                            ],
-                            "__typename": "ImageConnection"
-                        },
-                        "pricing": {
-                            "exclusion": "LOCKED",
-                            "maapOverriddenAt": null,
-                            "listPrice": 25998,
-                            "priceBeforeDrop": null,
-                            "discountLabel": null,
-                            "deliveryFee": null,
-                            "transferFee": {
-                                "amount": 199,
-                                "fromCity": "Pleasanton",
-                                "fromState": "CA",
-                                "distance": 341.11,
-                                "__typename": "TransferFee"
-                            },
-                            "totalMsrp": 0,
-                            "subTotal": null,
-                            "__typename": "Pricing"
-                        },
-                        "consumerProspectedAt": null,
-                        "marketAnalysis": {
-                            "priceQuality": "GREAT",
-                            "marketAverageAnalysis": {
-                                "averageSaved": 244,
-                                "averagePricePercentage": 0.9,
-                                "averagePriceRange": {
-                                    "min": 26064,
-                                    "max": 27128,
-                                    "__typename": "IntRange"
-                                },
-                                "averagePrice": 26596,
-                                "__typename": "PriceAnalysis"
-                            },
-                            "calloutDifferenceString": "$244 (0.9%) off avg. list price",
-                            "calloutPriceSavings": null,
-                            "recentOfferAnalysis": null,
-                            "__typename": "MarketAnalysis"
-                        },
-                        "precalculatedLease": null,
-                        "precalculatedLoan": null,
-                        "highlightedOptionsOrKeyFeatures": [],
-                        "__typename": "Listing"
-                    },
-                    "hiddenListingsInfo": null,
-                    "distance": {
-                        "miles": 4.01,
-                        "__typename": "WithinDistanceInfo"
-                    },
-                    "__typename": "ListingSearchEdge"
-                },
-                {
-                    "cursor": "MTk",
-                    "node": {
-                        "vehicle": {
-                            "vin": "JTDKAMFP2M3194715",
-                            "condition": "USED",
-                            "make": {
-                                "slug": "toyota",
-                                "name": "Toyota",
-                                "id": "TWFrZS01Mw==",
-                                "__typename": "Make"
-                            },
-                            "model": {
-                                "slug": "prius-prime",
-                                "name": "Prius Prime",
-                                "id": "TW9kZWwtOTA5MA==",
-                                "__typename": "Model"
-                            },
-                            "style": {
-                                "id": "U3R5bGUtNjkyOTg=",
-                                "trim": {
-                                    "name": "LE",
-                                    "slug": "le",
-                                    "id": "VHJpbS0zNTU0Ng==",
-                                    "__typename": "Trim"
-                                },
-                                "name": "LE",
-                                "driveType": {
-                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
-                                    "acronym": "FWD",
-                                    "name": "Front Wheel Drive",
-                                    "__typename": "VehicleDriveType"
-                                },
-                                "__typename": "Style"
-                            },
-                            "year": 2021,
-                            "certifiedPreOwned": null,
-                            "mileage": 38785,
-                            "exteriorColorV2": {
-                                "__typename": "GenericColor",
-                                "genericName": "Red",
-                                "name": "Supersonic Red"
-                            },
-                            "interiorColorV2": {
-                                "__typename": "GenericColor",
-                                "genericName": "Black",
-                                "name": "Black"
-                            },
-                            "conditionHistory": {
-                                "ownerCount": 1,
-                                "accidentCount": 0,
-                                "isFleetCar": false,
-                                "__typename": "VehicleConditionHistory"
-                            },
-                            "mpg": {
-                                "city": null,
-                                "highway": null,
-                                "__typename": "VehicleMPG"
-                            },
-                            "transmission": "Automatic",
-                            "engine": "1.8L Inline-4 Plug-In Hybrid",
-                            "fuelType": "Plug-In Hybrid",
-                            "bodyStyle": "Hatchback",
-                            "__typename": "Vehicle"
-                        },
-                        "id": "TGlzdGluZy1KVERLQU1GUDJNMzE5NDcxNQ==",
-                        "dealership": {
-                            "location": {
-                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
-                                "geolocation": {
-                                    "postalCode": "90621",
-                                    "city": "Buena Park",
-                                    "state": "CA",
-                                    "id": "R2VvbG9jYXRpb24t",
-                                    "__typename": "Geolocation"
-                                },
-                                "__typename": "DealershipLocation"
-                            },
-                            "databaseId": "5552",
-                            "id": "RGVhbGVyc2hpcC01NTUy",
-                            "parentDealershipName": "carmax",
-                            "__typename": "Dealership"
-                        },
-                        "isMultiLocation": true,
-                        "distanceRetailing": false,
-                        "tcplusEligible": false,
-                        "galleryImages": {
-                            "nodes": [
-                                {
-                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/MVF555WVY7ANPDE27MFW4DTH3U",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/7CV3VC2BZXD47ZDHCOE5UMLVJE",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/MUX67IMKJN6HSM4ZBL3SYKV6KA",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/FQU3W5D5DBVYA5RJB5ZBLVKIHA",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/6HCIHIGID4ORPZS72QRFG5PDAQ",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                }
-                            ],
-                            "__typename": "ImageConnection"
-                        },
-                        "pricing": {
-                            "exclusion": "LOCKED",
-                            "maapOverriddenAt": null,
-                            "listPrice": 26998,
-                            "priceBeforeDrop": null,
-                            "discountLabel": null,
-                            "deliveryFee": null,
-                            "transferFee": {
-                                "amount": 199,
-                                "fromCity": "Fresno",
-                                "fromState": "CA",
-                                "distance": 229.38,
-                                "__typename": "TransferFee"
-                            },
-                            "totalMsrp": 0,
-                            "subTotal": null,
-                            "__typename": "Pricing"
-                        },
-                        "consumerProspectedAt": null,
-                        "marketAnalysis": {
-                            "priceQuality": "GREAT",
-                            "marketAverageAnalysis": {
-                                "averageSaved": 378,
-                                "averagePricePercentage": 1.4,
-                                "averagePriceRange": {
-                                    "min": 27239,
-                                    "max": 28351,
-                                    "__typename": "IntRange"
-                                },
-                                "averagePrice": 27795,
-                                "__typename": "PriceAnalysis"
-                            },
-                            "calloutDifferenceString": "$378 (1.4%) off avg. list price",
-                            "calloutPriceSavings": null,
-                            "recentOfferAnalysis": null,
-                            "__typename": "MarketAnalysis"
-                        },
-                        "precalculatedLease": null,
-                        "precalculatedLoan": null,
-                        "highlightedOptionsOrKeyFeatures": [],
-                        "__typename": "Listing"
-                    },
-                    "hiddenListingsInfo": null,
-                    "distance": {
-                        "miles": 4.01,
-                        "__typename": "WithinDistanceInfo"
-                    },
-                    "__typename": "ListingSearchEdge"
-                },
-                {
-                    "cursor": "MjA",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFPXN3199596",
@@ -3614,11 +3076,11 @@
                                 "averageSaved": 0,
                                 "averagePricePercentage": 0,
                                 "averagePriceRange": {
-                                    "min": 27426,
-                                    "max": 28546,
+                                    "min": 27465,
+                                    "max": 28586,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 27986,
+                                "averagePrice": 28025,
                                 "__typename": "PriceAnalysis"
                             },
                             "calloutDifferenceString": "This price is avg. list price",
@@ -3645,7 +3107,187 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MjE",
+                    "cursor": "MTg",
+                    "node": {
+                        "vehicle": {
+                            "vin": "JTDKAMFP2M3194715",
+                            "condition": "USED",
+                            "make": {
+                                "slug": "toyota",
+                                "name": "Toyota",
+                                "id": "TWFrZS01Mw==",
+                                "__typename": "Make"
+                            },
+                            "model": {
+                                "slug": "prius-prime",
+                                "name": "Prius Prime",
+                                "id": "TW9kZWwtOTA5MA==",
+                                "__typename": "Model"
+                            },
+                            "style": {
+                                "id": "U3R5bGUtNjkyOTg=",
+                                "trim": {
+                                    "name": "LE",
+                                    "slug": "le",
+                                    "id": "VHJpbS0zNTU0Ng==",
+                                    "__typename": "Trim"
+                                },
+                                "name": "LE",
+                                "driveType": {
+                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
+                                    "acronym": "FWD",
+                                    "name": "Front Wheel Drive",
+                                    "__typename": "VehicleDriveType"
+                                },
+                                "__typename": "Style"
+                            },
+                            "year": 2021,
+                            "certifiedPreOwned": null,
+                            "mileage": 38785,
+                            "exteriorColorV2": {
+                                "__typename": "GenericColor",
+                                "genericName": "Red",
+                                "name": "Supersonic Red"
+                            },
+                            "interiorColorV2": {
+                                "__typename": "GenericColor",
+                                "genericName": "Black",
+                                "name": "Black"
+                            },
+                            "conditionHistory": {
+                                "ownerCount": 1,
+                                "accidentCount": 0,
+                                "isFleetCar": false,
+                                "__typename": "VehicleConditionHistory"
+                            },
+                            "mpg": {
+                                "city": null,
+                                "highway": null,
+                                "__typename": "VehicleMPG"
+                            },
+                            "transmission": "Automatic",
+                            "engine": "1.8L Inline-4 Plug-In Hybrid",
+                            "fuelType": "Plug-In Hybrid",
+                            "bodyStyle": "Hatchback",
+                            "__typename": "Vehicle"
+                        },
+                        "id": "TGlzdGluZy1KVERLQU1GUDJNMzE5NDcxNQ==",
+                        "dealership": {
+                            "location": {
+                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
+                                "geolocation": {
+                                    "postalCode": "90621",
+                                    "city": "Buena Park",
+                                    "state": "CA",
+                                    "id": "R2VvbG9jYXRpb24t",
+                                    "__typename": "Geolocation"
+                                },
+                                "__typename": "DealershipLocation"
+                            },
+                            "databaseId": "5552",
+                            "id": "RGVhbGVyc2hpcC01NTUy",
+                            "parentDealershipName": "carmax",
+                            "__typename": "Dealership"
+                        },
+                        "isMultiLocation": true,
+                        "distanceRetailing": false,
+                        "tcplusEligible": false,
+                        "galleryImages": {
+                            "nodes": [
+                                {
+                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/MVF555WVY7ANPDE27MFW4DTH3U",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/7CV3VC2BZXD47ZDHCOE5UMLVJE",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/SSNOR77JR76F2M3QT4KHLBDAIA",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/FQU3W5D5DBVYA5RJB5ZBLVKIHA",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/5552/15/47/JTDKAMFP2M3194715/O2P6QMWHAGT7AQADCAAZQLASJA",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                }
+                            ],
+                            "__typename": "ImageConnection"
+                        },
+                        "pricing": {
+                            "exclusion": "LOCKED",
+                            "maapOverriddenAt": null,
+                            "listPrice": 26998,
+                            "priceBeforeDrop": null,
+                            "discountLabel": null,
+                            "deliveryFee": null,
+                            "transferFee": {
+                                "amount": 199,
+                                "fromCity": "Fresno",
+                                "fromState": "CA",
+                                "distance": 229.38,
+                                "__typename": "TransferFee"
+                            },
+                            "totalMsrp": 0,
+                            "subTotal": null,
+                            "__typename": "Pricing"
+                        },
+                        "consumerProspectedAt": null,
+                        "marketAnalysis": {
+                            "priceQuality": "GREAT",
+                            "marketAverageAnalysis": {
+                                "averageSaved": 378,
+                                "averagePricePercentage": 1.4,
+                                "averagePriceRange": {
+                                    "min": 27239,
+                                    "max": 28351,
+                                    "__typename": "IntRange"
+                                },
+                                "averagePrice": 27795,
+                                "__typename": "PriceAnalysis"
+                            },
+                            "calloutDifferenceString": "$378 (1.4%) off avg. list price",
+                            "calloutPriceSavings": null,
+                            "recentOfferAnalysis": null,
+                            "__typename": "MarketAnalysis"
+                        },
+                        "precalculatedLease": null,
+                        "precalculatedLoan": null,
+                        "highlightedOptionsOrKeyFeatures": [],
+                        "__typename": "Listing"
+                    },
+                    "hiddenListingsInfo": null,
+                    "distance": {
+                        "miles": 4.01,
+                        "__typename": "WithinDistanceInfo"
+                    },
+                    "__typename": "ListingSearchEdge"
+                },
+                {
+                    "cursor": "MTk",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP8N3204441",
@@ -3827,7 +3469,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MjI",
+                    "cursor": "MjA",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP3M3171248",
@@ -3917,8 +3559,8 @@
                         "galleryImages": {
                             "nodes": [
                                 {
-                                    "url": "listings/202715/48/12/JTDKAMFP3M3171248/2CUMOGRBHSBONC3NTQGN2I2ZXY",
-                                    "width": 1600,
+                                    "url": "listings/202715/48/12/JTDKAMFP3M3171248/FUBEZZHEUGXLQBZ46EJMSKPZIQ",
+                                    "width": 1280,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
                                     ],
@@ -3933,24 +3575,24 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/202715/48/12/JTDKAMFP3M3171248/PSRY2LJ2TIR4YK3LT76BSG5GFM",
-                                    "width": 1600,
+                                    "url": "listings/202715/48/12/JTDKAMFP3M3171248/UDFXV363HBSEYRU67IXKGMU6BI",
+                                    "width": 1280,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
                                     ],
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/202715/48/12/JTDKAMFP3M3171248/LCIIXBO4KQKVWJDJVDV4BF6BCM",
-                                    "width": 1600,
+                                    "url": "listings/202715/48/12/JTDKAMFP3M3171248/57D4DMYNWXYO6RC2YVM6YUSM7M",
+                                    "width": 1280,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
                                     ],
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/202715/48/12/JTDKAMFP3M3171248/WDO5QEFCYZLI6VN46VWOA7J3XM",
-                                    "width": 1600,
+                                    "url": "listings/202715/48/12/JTDKAMFP3M3171248/INWHN5B27YMEP7LH7E7AZHCD4M",
+                                    "width": 1280,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
                                     ],
@@ -4009,7 +3651,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MjM",
+                    "cursor": "MjE",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP2M3166798",
@@ -4185,7 +3827,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MjQ",
+                    "cursor": "MjI",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP6N3200842",
@@ -4281,7 +3923,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/1013/42/08/JTDKAMFP6N3200842/JZ6ULMJBJYMW7RYQ22WL7JM7LA",
+                                    "url": "listings/1013/42/08/JTDKAMFP6N3200842/PRA7QGTMX7RKGYILAXPVRKP6MM",
                                     "width": 640,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -4289,7 +3931,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/1013/42/08/JTDKAMFP6N3200842/RTORTF43N5X5DDZGE7VXYP7PHQ",
+                                    "url": "listings/1013/42/08/JTDKAMFP6N3200842/WXRQPAQQICKQ65XQGV5HCBFJUY",
                                     "width": 640,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -4305,7 +3947,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/1013/42/08/JTDKAMFP6N3200842/X47KY6A4OFALYTMRZD7AGXQNJE",
+                                    "url": "listings/1013/42/08/JTDKAMFP6N3200842/TSJAFRSEVOXLSIPOJ2NJZ73OK4",
                                     "width": 640,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -4365,7 +4007,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MjU",
+                    "cursor": "MjM",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP1M3168915",
@@ -4539,7 +4181,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MjY",
+                    "cursor": "MjQ",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP8N3201815",
@@ -4713,7 +4355,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "Mjc",
+                    "cursor": "MjU",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFPXM3168055",
@@ -4895,7 +4537,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "Mjg",
+                    "cursor": "MjY",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP9M3187731",
@@ -5009,17 +4651,17 @@
                         "marketAnalysis": {
                             "priceQuality": "GREAT",
                             "marketAverageAnalysis": {
-                                "averageSaved": 215,
-                                "averagePricePercentage": 0.8,
+                                "averageSaved": 268,
+                                "averagePricePercentage": 1,
                                 "averagePriceRange": {
-                                    "min": 26841,
-                                    "max": 27937,
+                                    "min": 26918,
+                                    "max": 28016,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 27389,
+                                "averagePrice": 27467,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$215 (0.8%) off avg. list price",
+                            "calloutDifferenceString": "$268 (1.0%) off avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
@@ -5037,7 +4679,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "Mjk",
+                    "cursor": "Mjc",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP9N3220812",
@@ -5135,7 +4777,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/89835/12/08/JTDKAMFP9N3220812/ECCDE2OWFBPQ3Z2V7AVBV4FNGQ",
+                                    "url": "listings/89835/12/08/JTDKAMFP9N3220812/I7HU7OM2ZK726SRROOGQUTXCOY",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -5143,7 +4785,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/89835/12/08/JTDKAMFP9N3220812/GJNIPJ4YJCUSI67DKZWXYS72IU",
+                                    "url": "listings/89835/12/08/JTDKAMFP9N3220812/7H7QNK3OOP3K3T64KHDDN6T674",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -5151,7 +4793,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/89835/12/08/JTDKAMFP9N3220812/4Q724NN72AMTIBZVAKA76AAENQ",
+                                    "url": "listings/89835/12/08/JTDKAMFP9N3220812/SOBEYSUKA7RCMABTGGWTPUPJQY",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -5159,7 +4801,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/89835/12/08/JTDKAMFP9N3220812/CPDKCDXWOI44LFKOEWZAWNI4LA",
+                                    "url": "listings/89835/12/08/JTDKAMFP9N3220812/F2X4WOZXZ4X3WFGJVTQ7KTR2LA",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -5219,7 +4861,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "MzA",
+                    "cursor": "Mjg",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP4N3205604",
@@ -5315,7 +4957,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/5569/04/56/JTDKAMFP4N3205604/3CBN5JO6TAOPRAESQDRLSGH3LI",
+                                    "url": "listings/5569/04/56/JTDKAMFP4N3205604/6SHEB375RP6W42CIMTF2GYPDYA",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -5323,7 +4965,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/5569/04/56/JTDKAMFP4N3205604/WNTY3L6XPWEWXCG5IAZNZRLGRA",
+                                    "url": "listings/5569/04/56/JTDKAMFP4N3205604/SXFM4M3RCUK6AJAFRGS5L7TC7Y",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -5331,7 +4973,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/5569/04/56/JTDKAMFP4N3205604/ZMDFSUUINTK3TMAM6A7HY7A4EE",
+                                    "url": "listings/5569/04/56/JTDKAMFP4N3205604/D7LT3L75F5W6DTCEQYS3JDYGHQ",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -5339,7 +4981,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/5569/04/56/JTDKAMFP4N3205604/G3JM42I3LXPXW6VNU5HYE7YRZI",
+                                    "url": "listings/5569/04/56/JTDKAMFP4N3205604/3F77MKF6FPK2ZDCTVPKTHCNDSA",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -5397,6 +5039,368 @@
                         "__typename": "WithinDistanceInfo"
                     },
                     "__typename": "ListingSearchEdge"
+                },
+                {
+                    "cursor": "Mjk",
+                    "node": {
+                        "vehicle": {
+                            "vin": "JTDKAMFP9M3165955",
+                            "condition": "USED",
+                            "make": {
+                                "slug": "toyota",
+                                "name": "Toyota",
+                                "id": "TWFrZS01Mw==",
+                                "__typename": "Make"
+                            },
+                            "model": {
+                                "slug": "prius-prime",
+                                "name": "Prius Prime",
+                                "id": "TW9kZWwtOTA5MA==",
+                                "__typename": "Model"
+                            },
+                            "style": {
+                                "id": "U3R5bGUtNjkzMTc=",
+                                "trim": {
+                                    "name": "XLE",
+                                    "slug": "xle",
+                                    "id": "VHJpbS0zNTU1OA==",
+                                    "__typename": "Trim"
+                                },
+                                "name": "XLE",
+                                "driveType": {
+                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
+                                    "acronym": "FWD",
+                                    "name": "Front Wheel Drive",
+                                    "__typename": "VehicleDriveType"
+                                },
+                                "__typename": "Style"
+                            },
+                            "year": 2021,
+                            "certifiedPreOwned": null,
+                            "mileage": 17725,
+                            "exteriorColorV2": {
+                                "__typename": "VehicleColor",
+                                "id": "VmVoaWNsZUNvbG9yLTEwNDY5MjI=",
+                                "genericName": "White",
+                                "name": "Super White"
+                            },
+                            "interiorColorV2": {
+                                "__typename": "VehicleColor",
+                                "id": "VmVoaWNsZUNvbG9yLTEwNDY5MzE=",
+                                "genericName": "Black",
+                                "name": "Black"
+                            },
+                            "conditionHistory": {
+                                "ownerCount": 1,
+                                "accidentCount": 0,
+                                "isFleetCar": false,
+                                "__typename": "VehicleConditionHistory"
+                            },
+                            "mpg": {
+                                "city": null,
+                                "highway": null,
+                                "__typename": "VehicleMPG"
+                            },
+                            "transmission": "Automatic",
+                            "engine": "1.8L Inline-4 Plug-In Hybrid",
+                            "fuelType": "Plug-In Hybrid",
+                            "bodyStyle": "Hatchback",
+                            "__typename": "Vehicle"
+                        },
+                        "id": "TGlzdGluZy1KVERLQU1GUDlNMzE2NTk1NQ==",
+                        "dealership": {
+                            "location": {
+                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
+                                "geolocation": {
+                                    "postalCode": "90250",
+                                    "city": "Hawthorne",
+                                    "state": "CA",
+                                    "id": "R2VvbG9jYXRpb24t",
+                                    "__typename": "Geolocation"
+                                },
+                                "__typename": "DealershipLocation"
+                            },
+                            "databaseId": "4330",
+                            "id": "RGVhbGVyc2hpcC00MzMw",
+                            "parentDealershipName": null,
+                            "__typename": "Dealership"
+                        },
+                        "isMultiLocation": false,
+                        "distanceRetailing": false,
+                        "tcplusEligible": false,
+                        "galleryImages": {
+                            "nodes": [
+                                {
+                                    "url": "listings/4330/55/59/JTDKAMFP9M3165955/J263LUKHOHNXCJRN5XZJBPQ7YI",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/4330/55/59/JTDKAMFP9M3165955/WZ4B6BTPCMO4X6ESIHLGD3GMHE",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/4330/55/59/JTDKAMFP9M3165955/MQUXFVOO63XTOKLACBT3NBYFDE",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/4330/55/59/JTDKAMFP9M3165955/RRO3TVMXRAUV5MMSYT44HCV4R4",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/4330/55/59/JTDKAMFP9M3165955/UZJXJWA6QBM4PJFLKB6MIBGND4",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                }
+                            ],
+                            "__typename": "ImageConnection"
+                        },
+                        "pricing": {
+                            "exclusion": "LOCKED",
+                            "maapOverriddenAt": null,
+                            "listPrice": 29000,
+                            "priceBeforeDrop": 29300,
+                            "discountLabel": null,
+                            "deliveryFee": null,
+                            "transferFee": null,
+                            "totalMsrp": 0,
+                            "subTotal": null,
+                            "__typename": "Pricing"
+                        },
+                        "consumerProspectedAt": null,
+                        "marketAnalysis": {
+                            "priceQuality": "FAIR",
+                            "marketAverageAnalysis": {
+                                "averageSaved": 0,
+                                "averagePricePercentage": 0,
+                                "averagePriceRange": {
+                                    "min": 28690,
+                                    "max": 29862,
+                                    "__typename": "IntRange"
+                                },
+                                "averagePrice": 29276,
+                                "__typename": "PriceAnalysis"
+                            },
+                            "calloutDifferenceString": "This price is avg. list price",
+                            "calloutPriceSavings": null,
+                            "recentOfferAnalysis": null,
+                            "__typename": "MarketAnalysis"
+                        },
+                        "precalculatedLease": null,
+                        "precalculatedLoan": {
+                            "totalMonthlyPayment": 546.75,
+                            "disclaimer": "This finance estimate is based off a 60 month term and $2,900.00 down payment. It does not include fees charged by this dealer and may not reflect your actual tax liability.",
+                            "downPayment": 2900,
+                            "term": 60,
+                            "__typename": "PrecalculatedLoanPayment"
+                        },
+                        "highlightedOptionsOrKeyFeatures": [],
+                        "__typename": "Listing"
+                    },
+                    "hiddenListingsInfo": null,
+                    "distance": {
+                        "miles": 23.24,
+                        "__typename": "WithinDistanceInfo"
+                    },
+                    "__typename": "ListingSearchEdge"
+                },
+                {
+                    "cursor": "MzA",
+                    "node": {
+                        "vehicle": {
+                            "vin": "JTDKAMFP7M3171740",
+                            "condition": "USED",
+                            "make": {
+                                "slug": "toyota",
+                                "name": "Toyota",
+                                "id": "TWFrZS01Mw==",
+                                "__typename": "Make"
+                            },
+                            "model": {
+                                "slug": "prius-prime",
+                                "name": "Prius Prime",
+                                "id": "TW9kZWwtOTA5MA==",
+                                "__typename": "Model"
+                            },
+                            "style": {
+                                "id": "U3R5bGUtNjkzMTc=",
+                                "trim": {
+                                    "name": "XLE",
+                                    "slug": "xle",
+                                    "id": "VHJpbS0zNTU1OA==",
+                                    "__typename": "Trim"
+                                },
+                                "name": "XLE",
+                                "driveType": {
+                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
+                                    "acronym": "FWD",
+                                    "name": "Front Wheel Drive",
+                                    "__typename": "VehicleDriveType"
+                                },
+                                "__typename": "Style"
+                            },
+                            "year": 2021,
+                            "certifiedPreOwned": null,
+                            "mileage": 11484,
+                            "exteriorColorV2": {
+                                "__typename": "GenericColor",
+                                "genericName": "Red",
+                                "name": "Supersonic Red"
+                            },
+                            "interiorColorV2": {
+                                "__typename": "GenericColor",
+                                "genericName": "Black",
+                                "name": "Black"
+                            },
+                            "conditionHistory": {
+                                "ownerCount": 1,
+                                "accidentCount": 0,
+                                "isFleetCar": false,
+                                "__typename": "VehicleConditionHistory"
+                            },
+                            "mpg": {
+                                "city": null,
+                                "highway": null,
+                                "__typename": "VehicleMPG"
+                            },
+                            "transmission": "Automatic",
+                            "engine": "1.8L Inline-4 Plug-In Hybrid",
+                            "fuelType": "Plug-In Hybrid",
+                            "bodyStyle": "Hatchback",
+                            "__typename": "Vehicle"
+                        },
+                        "id": "TGlzdGluZy1KVERLQU1GUDdNMzE3MTc0MA==",
+                        "dealership": {
+                            "location": {
+                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
+                                "geolocation": {
+                                    "postalCode": "90621",
+                                    "city": "Buena Park",
+                                    "state": "CA",
+                                    "id": "R2VvbG9jYXRpb24t",
+                                    "__typename": "Geolocation"
+                                },
+                                "__typename": "DealershipLocation"
+                            },
+                            "databaseId": "285148",
+                            "id": "RGVhbGVyc2hpcC0yODUxNDg=",
+                            "parentDealershipName": "carmax",
+                            "__typename": "Dealership"
+                        },
+                        "isMultiLocation": true,
+                        "distanceRetailing": false,
+                        "tcplusEligible": false,
+                        "galleryImages": {
+                            "nodes": [
+                                {
+                                    "url": "listings/285148/40/17/JTDKAMFP7M3171740/AHGKODDJYOJVLBG7L5KHBEZRHY",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/285148/40/17/JTDKAMFP7M3171740/SPU5N3ATJQAITCKAEXBOXRMJHI",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/285148/40/17/JTDKAMFP7M3171740/2XUPTT3CQO4E6V2ZNJKV7EDN2E",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/285148/40/17/JTDKAMFP7M3171740/2WO2VK2YPN3X4VGSBMSXYO3G5E",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/285148/40/17/JTDKAMFP7M3171740/BBOPBDCA2KMJ227MFYNJMREGXM",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                }
+                            ],
+                            "__typename": "ImageConnection"
+                        },
+                        "pricing": {
+                            "exclusion": "LOCKED",
+                            "maapOverriddenAt": null,
+                            "listPrice": 31998,
+                            "priceBeforeDrop": null,
+                            "discountLabel": null,
+                            "deliveryFee": null,
+                            "transferFee": {
+                                "amount": 199,
+                                "fromCity": "Pleasant Hill",
+                                "fromState": "CA",
+                                "distance": 363.43,
+                                "__typename": "TransferFee"
+                            },
+                            "totalMsrp": 0,
+                            "subTotal": null,
+                            "__typename": "Pricing"
+                        },
+                        "consumerProspectedAt": null,
+                        "marketAnalysis": {
+                            "priceQuality": "FAIR",
+                            "marketAverageAnalysis": {
+                                "averageSaved": 0,
+                                "averagePricePercentage": 0,
+                                "averagePriceRange": {
+                                    "min": 31253,
+                                    "max": 32529,
+                                    "__typename": "IntRange"
+                                },
+                                "averagePrice": 31891,
+                                "__typename": "PriceAnalysis"
+                            },
+                            "calloutDifferenceString": "This price is avg. list price",
+                            "calloutPriceSavings": null,
+                            "recentOfferAnalysis": null,
+                            "__typename": "MarketAnalysis"
+                        },
+                        "precalculatedLease": null,
+                        "precalculatedLoan": null,
+                        "highlightedOptionsOrKeyFeatures": [],
+                        "__typename": "Listing"
+                    },
+                    "hiddenListingsInfo": null,
+                    "distance": {
+                        "miles": 4.01,
+                        "__typename": "WithinDistanceInfo"
+                    },
+                    "__typename": "ListingSearchEdge"
                 }
             ],
             "displayNames": {
@@ -5413,10 +5417,182 @@
                 "__typename": "ListingSearchDisplayNames"
             },
             "isFallback": false,
-            "totalCount": 71,
+            "totalCount": 67,
             "sponsoredListings": [
                 {
-                    "cursor": "00fc2db6-85d6-4672-a95b-39c7841bc37e",
+                    "cursor": "512756d3-c91b-4c71-a0e7-be5c4d56f2a7",
+                    "node": {
+                        "vehicle": {
+                            "vin": "JTDKAMFP8M3167213",
+                            "condition": "USED",
+                            "make": {
+                                "id": "TWFrZS01Mw==",
+                                "slug": "toyota",
+                                "name": "Toyota",
+                                "__typename": "Make"
+                            },
+                            "model": {
+                                "id": "TW9kZWwtOTA5MA==",
+                                "slug": "prius-prime",
+                                "name": "Prius Prime",
+                                "__typename": "Model"
+                            },
+                            "style": {
+                                "id": "U3R5bGUtNjkzMjg=",
+                                "trim": {
+                                    "id": "VHJpbS0zNTU2Mg==",
+                                    "name": "Limited",
+                                    "__typename": "Trim"
+                                },
+                                "name": "Limited",
+                                "driveType": {
+                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
+                                    "acronym": "FWD",
+                                    "__typename": "VehicleDriveType"
+                                },
+                                "__typename": "Style"
+                            },
+                            "year": 2021,
+                            "certifiedPreOwned": null,
+                            "mileage": 20986,
+                            "exteriorColorV2": {
+                                "__typename": "VehicleColor",
+                                "id": "VmVoaWNsZUNvbG9yLTEwNDY5NTQ=",
+                                "genericName": "Silver",
+                                "name": "Classic Silver Metallic"
+                            },
+                            "interiorColorV2": {
+                                "__typename": "VehicleColor",
+                                "id": "VmVoaWNsZUNvbG9yLTEwNDY5NjE=",
+                                "genericName": "Black",
+                                "name": "Black"
+                            },
+                            "conditionHistory": {
+                                "ownerCount": 1,
+                                "accidentCount": 0,
+                                "isFleetCar": false,
+                                "__typename": "VehicleConditionHistory"
+                            },
+                            "mpg": {
+                                "city": null,
+                                "highway": null,
+                                "__typename": "VehicleMPG"
+                            },
+                            "transmission": "Automatic",
+                            "engine": "1.8L Inline-4 Plug-In Hybrid",
+                            "__typename": "Vehicle"
+                        },
+                        "id": "TGlzdGluZy1KVERLQU1GUDhNMzE2NzIxMw==",
+                        "isMultiLocation": false,
+                        "distanceRetailing": false,
+                        "dealership": {
+                            "databaseId": "218311",
+                            "location": {
+                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
+                                "geolocation": {
+                                    "id": "R2VvbG9jYXRpb24t",
+                                    "city": "Culver City",
+                                    "state": "CA",
+                                    "postalCode": "90230",
+                                    "__typename": "Geolocation"
+                                },
+                                "__typename": "DealershipLocation"
+                            },
+                            "id": "RGVhbGVyc2hpcC0yMTgzMTE=",
+                            "parentDealershipName": null,
+                            "__typename": "Dealership"
+                        },
+                        "tcplusEligible": false,
+                        "galleryImages": {
+                            "nodes": [
+                                {
+                                    "url": "listings/218311/13/72/JTDKAMFP8M3167213/ATHGOAWC3Q662NCQQIWNTOEOQE",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/218311/13/72/JTDKAMFP8M3167213/EURTEOE5ENK3BHDMIV6TLKVVKA",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/218311/13/72/JTDKAMFP8M3167213/UR46KX3SRYOJGZC52KR3TRZZBU",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/218311/13/72/JTDKAMFP8M3167213/5VL74OVZG57IP3LOMJI7HNYUDM",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/218311/13/72/JTDKAMFP8M3167213/PUT2ZBEGU57AA253RYTP66AE3E",
+                                    "width": 640,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                }
+                            ],
+                            "__typename": "ImageConnection"
+                        },
+                        "pricing": {
+                            "exclusion": "LOCKED",
+                            "maapOverriddenAt": null,
+                            "listPrice": 29999,
+                            "priceBeforeDrop": 31997,
+                            "discountLabel": "Dealer Discount Available",
+                            "deliveryFee": null,
+                            "transferFee": null,
+                            "totalMsrp": 0,
+                            "subTotal": null,
+                            "__typename": "Pricing"
+                        },
+                        "consumerProspectedAt": null,
+                        "marketAnalysis": {
+                            "priceQuality": "GREAT",
+                            "marketAverageAnalysis": {
+                                "averageSaved": 270,
+                                "averagePricePercentage": 0.9,
+                                "averagePriceRange": {
+                                    "min": 30062,
+                                    "max": 31290,
+                                    "__typename": "IntRange"
+                                },
+                                "averagePrice": 30676,
+                                "__typename": "PriceAnalysis"
+                            },
+                            "calloutDifferenceString": "$270 (0.9%) off avg. list price",
+                            "calloutPriceSavings": null,
+                            "recentOfferAnalysis": null,
+                            "__typename": "MarketAnalysis"
+                        },
+                        "precalculatedLease": null,
+                        "precalculatedLoan": null,
+                        "highlightedOptionsOrKeyFeatures": [],
+                        "__typename": "Listing"
+                    },
+                    "hiddenListingsInfo": null,
+                    "distance": {
+                        "miles": 26.67,
+                        "__typename": "WithinDistanceInfo"
+                    },
+                    "__typename": "ListingSearchEdge"
+                },
+                {
+                    "cursor": "b2f87626-f744-40ee-b28e-c4e0ae8946c2",
                     "node": {
                         "vehicle": {
                             "vin": "JTDKAMFP1N3221453",
