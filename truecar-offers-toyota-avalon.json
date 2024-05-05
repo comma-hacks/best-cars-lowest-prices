@@ -19,7 +19,7 @@
                 },
                 "price": {
                     "min": 25599,
-                    "max": 36998,
+                    "max": 35995,
                     "__typename": "RangeFilter"
                 },
                 "__typename": "ListingSearchAggregations"
@@ -46,6 +46,185 @@
             "edges": [
                 {
                     "cursor": "MQ",
+                    "node": {
+                        "vehicle": {
+                            "vin": "4T1JZ1FB4NU076258",
+                            "condition": "USED",
+                            "make": {
+                                "slug": "toyota",
+                                "name": "Toyota",
+                                "id": "TWFrZS01Mw==",
+                                "__typename": "Make"
+                            },
+                            "model": {
+                                "slug": "avalon",
+                                "name": "Avalon",
+                                "id": "TW9kZWwtOTc3MA==",
+                                "__typename": "Model"
+                            },
+                            "style": {
+                                "id": "U3R5bGUtNzU2MzM=",
+                                "trim": {
+                                    "name": "XLE",
+                                    "slug": "xle",
+                                    "id": "VHJpbS0zOTYzMg==",
+                                    "__typename": "Trim"
+                                },
+                                "name": "XLE FWD",
+                                "driveType": {
+                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
+                                    "acronym": "FWD",
+                                    "name": "Front Wheel Drive",
+                                    "__typename": "VehicleDriveType"
+                                },
+                                "__typename": "Style"
+                            },
+                            "year": 2022,
+                            "certifiedPreOwned": null,
+                            "mileage": 39440,
+                            "exteriorColorV2": {
+                                "__typename": "VehicleColor",
+                                "id": "VmVoaWNsZUNvbG9yLTExMTcwMDY=",
+                                "genericName": "Gray",
+                                "name": "Harbor Gray Metallic"
+                            },
+                            "interiorColorV2": {
+                                "__typename": "VehicleColor",
+                                "id": "VmVoaWNsZUNvbG9yLTExMTcwMDI=",
+                                "genericName": "Black",
+                                "name": "Black"
+                            },
+                            "conditionHistory": {
+                                "ownerCount": 1,
+                                "accidentCount": 0,
+                                "isFleetCar": true,
+                                "__typename": "VehicleConditionHistory"
+                            },
+                            "mpg": {
+                                "city": 22,
+                                "highway": 32,
+                                "__typename": "VehicleMPG"
+                            },
+                            "transmission": "Automatic",
+                            "engine": "3.5L V-6 Gas V",
+                            "fuelType": "Gas",
+                            "bodyStyle": "Sedan",
+                            "__typename": "Vehicle"
+                        },
+                        "id": "TGlzdGluZy00VDFKWjFGQjROVTA3NjI1OA==",
+                        "dealership": {
+                            "location": {
+                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
+                                "geolocation": {
+                                    "postalCode": "90621",
+                                    "city": "Buena Park",
+                                    "state": "CA",
+                                    "id": "R2VvbG9jYXRpb24t",
+                                    "__typename": "Geolocation"
+                                },
+                                "__typename": "DealershipLocation"
+                            },
+                            "databaseId": "89835",
+                            "id": "RGVhbGVyc2hpcC04OTgzNQ==",
+                            "parentDealershipName": "carmax",
+                            "__typename": "Dealership"
+                        },
+                        "isMultiLocation": false,
+                        "distanceRetailing": false,
+                        "tcplusEligible": false,
+                        "galleryImages": {
+                            "nodes": [
+                                {
+                                    "url": "listings/89835/58/62/4T1JZ1FB4NU076258/QOTVKA6PLXEUUVRXJWE6NKXMVQ",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/89835/58/62/4T1JZ1FB4NU076258/X2N6TDGDZUNSSJM4AGFVKBEKJ4",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/89835/58/62/4T1JZ1FB4NU076258/ELV2QK7PIGBNP5UMVUAEKM4USE",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/89835/58/62/4T1JZ1FB4NU076258/TDYPEJFIBQHBDDKPQFNTLI7BVI",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                },
+                                {
+                                    "url": "listings/89835/58/62/4T1JZ1FB4NU076258/LOK7DP2JYHLJB56H7W6FY2STNQ",
+                                    "width": 1024,
+                                    "metadata": [
+                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
+                                    ],
+                                    "__typename": "Image"
+                                }
+                            ],
+                            "__typename": "ImageConnection"
+                        },
+                        "pricing": {
+                            "exclusion": "LOCKED",
+                            "maapOverriddenAt": null,
+                            "listPrice": 26998,
+                            "priceBeforeDrop": null,
+                            "discountLabel": null,
+                            "deliveryFee": null,
+                            "transferFee": {
+                                "amount": 0,
+                                "fromCity": "Murietta",
+                                "fromState": "CA",
+                                "distance": 51.72,
+                                "__typename": "TransferFee"
+                            },
+                            "totalMsrp": 0,
+                            "subTotal": null,
+                            "__typename": "Pricing"
+                        },
+                        "consumerProspectedAt": null,
+                        "marketAnalysis": {
+                            "priceQuality": "GREAT",
+                            "marketAverageAnalysis": {
+                                "averageSaved": 299,
+                                "averagePricePercentage": 1.1,
+                                "averagePriceRange": {
+                                    "min": 27130,
+                                    "max": 28238,
+                                    "__typename": "IntRange"
+                                },
+                                "averagePrice": 27684,
+                                "__typename": "PriceAnalysis"
+                            },
+                            "calloutDifferenceString": "$299 (1.1%) off avg. list price",
+                            "calloutPriceSavings": null,
+                            "recentOfferAnalysis": null,
+                            "__typename": "MarketAnalysis"
+                        },
+                        "precalculatedLease": null,
+                        "precalculatedLoan": null,
+                        "highlightedOptionsOrKeyFeatures": [],
+                        "__typename": "Listing"
+                    },
+                    "hiddenListingsInfo": null,
+                    "distance": null,
+                    "__typename": "ListingSearchEdge"
+                },
+                {
+                    "cursor": "Mg",
                     "node": {
                         "vehicle": {
                             "vin": "4T1JZ1FB1NU076007",
@@ -191,19 +370,19 @@
                         },
                         "consumerProspectedAt": null,
                         "marketAnalysis": {
-                            "priceQuality": "EXCELLENT",
+                            "priceQuality": "GREAT",
                             "marketAverageAnalysis": {
-                                "averageSaved": 1178,
-                                "averagePricePercentage": 4.6,
+                                "averageSaved": 473,
+                                "averagePricePercentage": 1.8,
                                 "averagePriceRange": {
-                                    "min": 27027,
-                                    "max": 28131,
+                                    "min": 25987,
+                                    "max": 27047,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 27579,
+                                "averagePrice": 26517,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$1,178 (4.6%) off avg. list price",
+                            "calloutDifferenceString": "$473 (1.8%) off avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
@@ -227,7 +406,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "Mg",
+                    "cursor": "Mw",
                     "node": {
                         "vehicle": {
                             "vin": "4T1JZ1FBXNU087815",
@@ -380,17 +559,17 @@
                         "marketAnalysis": {
                             "priceQuality": "GREAT",
                             "marketAverageAnalysis": {
-                                "averageSaved": 631,
-                                "averagePricePercentage": 2.3,
+                                "averageSaved": 436,
+                                "averagePricePercentage": 1.6,
                                 "averagePriceRange": {
-                                    "min": 27594,
-                                    "max": 28720,
+                                    "min": 27318,
+                                    "max": 28434,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 28157,
+                                "averagePrice": 27876,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$631 (2.3%) off avg. list price",
+                            "calloutDifferenceString": "$436 (1.6%) off avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
@@ -405,7 +584,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "Mw",
+                    "cursor": "NA",
                     "node": {
                         "vehicle": {
                             "vin": "4T1EA1AB5NU014979",
@@ -564,7 +743,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "NA",
+                    "cursor": "NQ",
                     "node": {
                         "vehicle": {
                             "vin": "4T1DZ1FB6NU073634",
@@ -680,17 +859,17 @@
                         "marketAnalysis": {
                             "priceQuality": "GREAT",
                             "marketAverageAnalysis": {
-                                "averageSaved": 354,
-                                "averagePricePercentage": 1,
+                                "averageSaved": 88,
+                                "averagePricePercentage": 0.2,
                                 "averagePriceRange": {
-                                    "min": 36110,
-                                    "max": 37584,
+                                    "min": 35749,
+                                    "max": 37209,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 36847,
+                                "averagePrice": 36479,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$354 (1.0%) off avg. list price",
+                            "calloutDifferenceString": "$88 (0.2%) off avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
@@ -708,10 +887,10 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "NQ",
+                    "cursor": "Ng",
                     "node": {
                         "vehicle": {
-                            "vin": "4T1DZ1FB4NU080758",
+                            "vin": "4T1JZ1FB4NU075921",
                             "condition": "USED",
                             "make": {
                                 "slug": "toyota",
@@ -726,14 +905,14 @@
                                 "__typename": "Model"
                             },
                             "style": {
-                                "id": "U3R5bGUtNzU2NDA=",
+                                "id": "U3R5bGUtNzU2MzM=",
                                 "trim": {
-                                    "name": "Limited",
-                                    "slug": "limited",
-                                    "id": "VHJpbS0zOTYzNA==",
+                                    "name": "XLE",
+                                    "slug": "xle",
+                                    "id": "VHJpbS0zOTYzMg==",
                                     "__typename": "Trim"
                                 },
-                                "name": "Limited FWD",
+                                "name": "XLE FWD",
                                 "driveType": {
                                     "id": "VmVoaWNsZURyaXZlVHlwZS0y",
                                     "acronym": "FWD",
@@ -744,27 +923,28 @@
                             },
                             "year": 2022,
                             "certifiedPreOwned": null,
-                            "mileage": 20038,
+                            "mileage": 39382,
                             "exteriorColorV2": {
                                 "__typename": "VehicleColor",
-                                "id": "VmVoaWNsZUNvbG9yLTExMTcxNTY=",
-                                "genericName": "Black",
-                                "name": "Midnight Black Metallic"
+                                "id": "VmVoaWNsZUNvbG9yLTExMTcwMDY=",
+                                "genericName": "Gray",
+                                "name": "Harbor Gray Metallic"
                             },
                             "interiorColorV2": {
-                                "__typename": "GenericColor",
-                                "genericName": "Brown",
-                                "name": "Brown"
+                                "__typename": "VehicleColor",
+                                "id": "VmVoaWNsZUNvbG9yLTExMTcwMDI=",
+                                "genericName": "Black",
+                                "name": "Black"
                             },
                             "conditionHistory": {
-                                "ownerCount": 2,
+                                "ownerCount": 1,
                                 "accidentCount": 0,
-                                "isFleetCar": false,
+                                "isFleetCar": true,
                                 "__typename": "VehicleConditionHistory"
                             },
                             "mpg": {
                                 "city": 22,
-                                "highway": 31,
+                                "highway": 32,
                                 "__typename": "VehicleMPG"
                             },
                             "transmission": "Automatic",
@@ -773,7 +953,7 @@
                             "bodyStyle": "Sedan",
                             "__typename": "Vehicle"
                         },
-                        "id": "TGlzdGluZy00VDFEWjFGQjROVTA4MDc1OA==",
+                        "id": "TGlzdGluZy00VDFKWjFGQjROVTA3NTkyMQ==",
                         "dealership": {
                             "location": {
                                 "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
@@ -786,8 +966,8 @@
                                 },
                                 "__typename": "DealershipLocation"
                             },
-                            "databaseId": "5590",
-                            "id": "RGVhbGVyc2hpcC01NTkw",
+                            "databaseId": "66561",
+                            "id": "RGVhbGVyc2hpcC02NjU2MQ==",
                             "parentDealershipName": "carmax",
                             "__typename": "Dealership"
                         },
@@ -797,7 +977,7 @@
                         "galleryImages": {
                             "nodes": [
                                 {
-                                    "url": "listings/5590/58/07/4T1DZ1FB4NU080758/M6DOIBCNMYWSMYNYHK3Z3ZPLFU",
+                                    "url": "listings/66561/21/59/4T1JZ1FB4NU075921/ZHLKROUWPZXBN76X67YH2KCN7E",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -805,7 +985,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/5590/58/07/4T1DZ1FB4NU080758/YD4TPHULNBIFW5NPTKDCVFEYYE",
+                                    "url": "listings/66561/21/59/4T1JZ1FB4NU075921/TIWRDHWSC7SARBFZUJRAEUH46U",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -813,7 +993,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/5590/58/07/4T1DZ1FB4NU080758/3OP43W7ZX7XUDS54VCWN3APDCA",
+                                    "url": "listings/66561/21/59/4T1JZ1FB4NU075921/JX7YVBKLTJ4VHFIPQU3KTVO6FE",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -821,7 +1001,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/5590/58/07/4T1DZ1FB4NU080758/2WQQIR4MOGHS6MSY5LTZF7LDSQ",
+                                    "url": "listings/66561/21/59/4T1JZ1FB4NU075921/6QTL4ZF25E532XU4ZMRC53Q5LY",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -829,7 +1009,7 @@
                                     "__typename": "Image"
                                 },
                                 {
-                                    "url": "listings/5590/58/07/4T1DZ1FB4NU080758/YUCX75LKRBELJPQP7F3UXIAUHY",
+                                    "url": "listings/66561/21/59/4T1JZ1FB4NU075921/GNBTG54A7M6U3NQXK3MRPG3U6A",
                                     "width": 1024,
                                     "metadata": [
                                         "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
@@ -842,15 +1022,15 @@
                         "pricing": {
                             "exclusion": "LOCKED",
                             "maapOverriddenAt": null,
-                            "listPrice": 36998,
+                            "listPrice": 27998,
                             "priceBeforeDrop": null,
                             "discountLabel": null,
                             "deliveryFee": null,
                             "transferFee": {
-                                "amount": 1899,
-                                "fromCity": "Nashville",
-                                "fromState": "TN",
-                                "distance": 1767.27,
+                                "amount": 199,
+                                "fromCity": "Las Vegas",
+                                "fromState": "NV",
+                                "distance": 221.58,
                                 "__typename": "TransferFee"
                             },
                             "totalMsrp": 0,
@@ -859,19 +1039,19 @@
                         },
                         "consumerProspectedAt": null,
                         "marketAnalysis": {
-                            "priceQuality": "GREAT",
+                            "priceQuality": "FAIR",
                             "marketAverageAnalysis": {
-                                "averageSaved": 716,
-                                "averagePricePercentage": 1.9,
+                                "averageSaved": 0,
+                                "averagePricePercentage": 0,
                                 "averagePriceRange": {
-                                    "min": 37604,
-                                    "max": 39138,
+                                    "min": 27257,
+                                    "max": 28369,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 38371,
+                                "averagePrice": 27813,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$716 (1.9%) off avg. list price",
+                            "calloutDifferenceString": "This price is avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
@@ -886,7 +1066,7 @@
                     "__typename": "ListingSearchEdge"
                 },
                 {
-                    "cursor": "Ng",
+                    "cursor": "Nw",
                     "node": {
                         "vehicle": {
                             "vin": "4T1AZ1FB4NU086448",
@@ -1038,196 +1218,17 @@
                         "marketAnalysis": {
                             "priceQuality": "GREAT",
                             "marketAverageAnalysis": {
-                                "averageSaved": 271,
-                                "averagePricePercentage": 0.9,
+                                "averageSaved": 42,
+                                "averagePricePercentage": 0.1,
                                 "averagePriceRange": {
-                                    "min": 31050,
-                                    "max": 32318,
+                                    "min": 30741,
+                                    "max": 31995,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 31684,
+                                "averagePrice": 31368,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$271 (0.9%) off avg. list price",
-                            "calloutPriceSavings": null,
-                            "recentOfferAnalysis": null,
-                            "__typename": "MarketAnalysis"
-                        },
-                        "precalculatedLease": null,
-                        "precalculatedLoan": null,
-                        "highlightedOptionsOrKeyFeatures": [],
-                        "__typename": "Listing"
-                    },
-                    "hiddenListingsInfo": null,
-                    "distance": null,
-                    "__typename": "ListingSearchEdge"
-                },
-                {
-                    "cursor": "Nw",
-                    "node": {
-                        "vehicle": {
-                            "vin": "4T1JZ1FB1NU086908",
-                            "condition": "USED",
-                            "make": {
-                                "slug": "toyota",
-                                "name": "Toyota",
-                                "id": "TWFrZS01Mw==",
-                                "__typename": "Make"
-                            },
-                            "model": {
-                                "slug": "avalon",
-                                "name": "Avalon",
-                                "id": "TW9kZWwtOTc3MA==",
-                                "__typename": "Model"
-                            },
-                            "style": {
-                                "id": "U3R5bGUtNzU2MzM=",
-                                "trim": {
-                                    "name": "XLE",
-                                    "slug": "xle",
-                                    "id": "VHJpbS0zOTYzMg==",
-                                    "__typename": "Trim"
-                                },
-                                "name": "XLE FWD",
-                                "driveType": {
-                                    "id": "VmVoaWNsZURyaXZlVHlwZS0y",
-                                    "acronym": "FWD",
-                                    "name": "Front Wheel Drive",
-                                    "__typename": "VehicleDriveType"
-                                },
-                                "__typename": "Style"
-                            },
-                            "year": 2022,
-                            "certifiedPreOwned": null,
-                            "mileage": 17534,
-                            "exteriorColorV2": {
-                                "__typename": "VehicleColor",
-                                "id": "VmVoaWNsZUNvbG9yLTExMTcwMDg=",
-                                "genericName": "Black",
-                                "name": "Midnight Black Metallic"
-                            },
-                            "interiorColorV2": {
-                                "__typename": "VehicleColor",
-                                "id": "VmVoaWNsZUNvbG9yLTExMTcwMDI=",
-                                "genericName": "Black",
-                                "name": "Black"
-                            },
-                            "conditionHistory": {
-                                "ownerCount": 1,
-                                "accidentCount": 0,
-                                "isFleetCar": true,
-                                "__typename": "VehicleConditionHistory"
-                            },
-                            "mpg": {
-                                "city": 22,
-                                "highway": 32,
-                                "__typename": "VehicleMPG"
-                            },
-                            "transmission": "Automatic",
-                            "engine": "3.5L V-6 Gas V",
-                            "fuelType": "Gas",
-                            "bodyStyle": "Sedan",
-                            "__typename": "Vehicle"
-                        },
-                        "id": "TGlzdGluZy00VDFKWjFGQjFOVTA4NjkwOA==",
-                        "dealership": {
-                            "location": {
-                                "id": "RGVhbGVyc2hpcExvY2F0aW9uLQ==",
-                                "geolocation": {
-                                    "postalCode": "90621",
-                                    "city": "Buena Park",
-                                    "state": "CA",
-                                    "id": "R2VvbG9jYXRpb24t",
-                                    "__typename": "Geolocation"
-                                },
-                                "__typename": "DealershipLocation"
-                            },
-                            "databaseId": "5600",
-                            "id": "RGVhbGVyc2hpcC01NjAw",
-                            "parentDealershipName": "carmax",
-                            "__typename": "Dealership"
-                        },
-                        "isMultiLocation": false,
-                        "distanceRetailing": false,
-                        "tcplusEligible": false,
-                        "galleryImages": {
-                            "nodes": [
-                                {
-                                    "url": "listings/5600/08/69/4T1JZ1FB1NU086908/JHSGB7SOJ3BZMXOOD2TE5OWSTE",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5600/08/69/4T1JZ1FB1NU086908/KLB6JNEDEHB3RBZBC2CUANEEZM",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5600/08/69/4T1JZ1FB1NU086908/MR2UFBC7JZPMU3TVJH77WVEUKI",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5600/08/69/4T1JZ1FB1NU086908/5HCKA7GNFORM6PY3CPLVQRMEA4",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                },
-                                {
-                                    "url": "listings/5600/08/69/4T1JZ1FB1NU086908/J64E25L4DHNSM6TLHYE5VVCW5Y",
-                                    "width": 1024,
-                                    "metadata": [
-                                        "PREPROCESSED_MULTIPLE_ASPECT_RATIOS"
-                                    ],
-                                    "__typename": "Image"
-                                }
-                            ],
-                            "__typename": "ImageConnection"
-                        },
-                        "pricing": {
-                            "exclusion": "LOCKED",
-                            "maapOverriddenAt": null,
-                            "listPrice": 30998,
-                            "priceBeforeDrop": null,
-                            "discountLabel": null,
-                            "deliveryFee": null,
-                            "transferFee": {
-                                "amount": 1199,
-                                "fromCity": "Plano",
-                                "fromState": "TX",
-                                "distance": 1222.89,
-                                "__typename": "TransferFee"
-                            },
-                            "totalMsrp": 0,
-                            "subTotal": null,
-                            "__typename": "Pricing"
-                        },
-                        "consumerProspectedAt": null,
-                        "marketAnalysis": {
-                            "priceQuality": "FAIR",
-                            "marketAverageAnalysis": {
-                                "averageSaved": -403,
-                                "averagePricePercentage": -1.3,
-                                "averagePriceRange": {
-                                    "min": 29590,
-                                    "max": 30798,
-                                    "__typename": "IntRange"
-                                },
-                                "averagePrice": 30194,
-                                "__typename": "PriceAnalysis"
-                            },
-                            "calloutDifferenceString": "$403 (1.3%) above avg. list price",
+                            "calloutDifferenceString": "$42 (0.1%) off avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
@@ -1361,11 +1362,11 @@
                                 "averageSaved": 704,
                                 "averagePricePercentage": 2,
                                 "averagePriceRange": {
-                                    "min": 35593,
-                                    "max": 37045,
+                                    "min": 35592,
+                                    "max": 37044,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 36319,
+                                "averagePrice": 36318,
                                 "__typename": "PriceAnalysis"
                             },
                             "calloutDifferenceString": "$704 (2.0%) off avg. list price",
@@ -1422,7 +1423,7 @@
                             },
                             "year": 2022,
                             "certifiedPreOwned": null,
-                            "mileage": 33633,
+                            "mileage": 33640,
                             "exteriorColorV2": {
                                 "__typename": "VehicleColor",
                                 "id": "VmVoaWNsZUNvbG9yLTExMTcwMDk=",
@@ -1504,17 +1505,17 @@
                         "marketAnalysis": {
                             "priceQuality": "HIGH",
                             "marketAverageAnalysis": {
-                                "averageSaved": -1211,
-                                "averagePricePercentage": -3.9,
+                                "averageSaved": -1717,
+                                "averagePricePercentage": -5.5,
                                 "averagePriceRange": {
-                                    "min": 28602,
-                                    "max": 29770,
+                                    "min": 28028,
+                                    "max": 29172,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 29186,
+                                "averagePrice": 28600,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$1,211 (3.9%) above avg. list price",
+                            "calloutDifferenceString": "$1,717 (5.5%) above avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
@@ -1647,24 +1648,7 @@
                             "__typename": "Pricing"
                         },
                         "consumerProspectedAt": null,
-                        "marketAnalysis": {
-                            "priceQuality": "HIGH",
-                            "marketAverageAnalysis": {
-                                "averageSaved": -1271,
-                                "averagePricePercentage": -4.1,
-                                "averagePriceRange": {
-                                    "min": 28527,
-                                    "max": 29691,
-                                    "__typename": "IntRange"
-                                },
-                                "averagePrice": 29109,
-                                "__typename": "PriceAnalysis"
-                            },
-                            "calloutDifferenceString": "$1,271 (4.1%) above avg. list price",
-                            "calloutPriceSavings": null,
-                            "recentOfferAnalysis": null,
-                            "__typename": "MarketAnalysis"
-                        },
+                        "marketAnalysis": null,
                         "precalculatedLease": null,
                         "precalculatedLoan": null,
                         "highlightedOptionsOrKeyFeatures": [],
