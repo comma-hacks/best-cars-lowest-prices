@@ -248,7 +248,7 @@
                                 "__typename": "Style"
                             },
                             "year": 2023,
-                            "certifiedPreOwned": null,
+                            "certifiedPreOwned": true,
                             "mileage": 711,
                             "exteriorColorV2": {
                                 "__typename": "VehicleColor",
@@ -1199,25 +1199,31 @@
                         },
                         "consumerProspectedAt": null,
                         "marketAnalysis": {
-                            "priceQuality": "GREAT",
+                            "priceQuality": "FAIR",
                             "marketAverageAnalysis": {
-                                "averageSaved": 1440,
-                                "averagePricePercentage": 1.6,
+                                "averageSaved": 0,
+                                "averagePricePercentage": 0,
                                 "averagePriceRange": {
-                                    "min": 91078,
-                                    "max": 94796,
+                                    "min": 88318,
+                                    "max": 91922,
                                     "__typename": "IntRange"
                                 },
-                                "averagePrice": 92937,
+                                "averagePrice": 90120,
                                 "__typename": "PriceAnalysis"
                             },
-                            "calloutDifferenceString": "$1,440 (1.6%) off avg. list price",
+                            "calloutDifferenceString": "This price is avg. list price",
                             "calloutPriceSavings": null,
                             "recentOfferAnalysis": null,
                             "__typename": "MarketAnalysis"
                         },
                         "precalculatedLease": null,
-                        "precalculatedLoan": null,
+                        "precalculatedLoan": {
+                            "totalMonthlyPayment": 1603.43,
+                            "disclaimer": "This finance estimate is based off a 60 month term and $8,999.50 down payment. It does not include fees charged by this dealer and may not reflect your actual tax liability.",
+                            "downPayment": 8999.5,
+                            "term": 60,
+                            "__typename": "PrecalculatedLoanPayment"
+                        },
                         "highlightedOptionsOrKeyFeatures": [],
                         "__typename": "Listing"
                     },
